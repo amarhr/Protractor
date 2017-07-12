@@ -10,10 +10,6 @@ exports.config = {
       home: 'pages/home/**/*.spec.js',
       search: 'pages/search/**/*.spec.js'
   },
-  scripts: {
-      pree2e: "webdriver-manager update --standalone false --gecko false",
-      e2e: "protractor"
-  },
   onPrepare: function() {
       browser.ignoreSynchronization = true;
   },
